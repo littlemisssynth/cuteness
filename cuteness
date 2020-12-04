@@ -1,0 +1,8 @@
+//a cuteness arithmetic series
+$(document).ready(function() {
+  var cuteness = 0;
+  for (var i = 0; i < 100; i++) {
+    cuteness = cuteness + i;
+  }
+  console.log("cuteness level: " + cuteness);
+});
